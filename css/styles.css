@@ -1,0 +1,25 @@
+.img-container {
+  height: 300px;
+}
+
+.receipe-image {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-receipe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+  background-color: #000;
+  color: #fff;
+  transition: opacity .35s ease;
+}
+
+.img-container:hover .btn-receipe {
+  opacity: .7;
+  z-index: 1;
+}
