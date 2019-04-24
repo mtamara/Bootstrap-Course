@@ -1,88 +1,131 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
 
-    <title>FTL Receipes</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
+  <title>FTL Receipes</title>
+</head>
 
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="img-container">
-            <img class="img-thumbnail receipe-image" src="images/kitchen_sink_cookies.jpg" alt="Cookies">
-            <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
-          </div>
-          <p>Kitchen Sink Cookies (gluten-free)</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="img-container">
-            <img class="img-thumbnail receipe-image" src="images/coconut_bread_pudding-4.jpg" alt="Coconut pudding">
-            <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
-          </div>
-          <p>Coconut Bread Pudding with Raspberries</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="img-container">
-            <img class="img-thumbnail receipe-image" src="images/zucchini-hash-skillet-.jpg" alt="Zucchini">
-            <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
-          </div>
-          <p>Zucchini Sweet Corn Hash Egg Skillet</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="img-container">
-            <img class="img-thumbnail receipe-image" src="images/Mixed-Berry-Ricotta-Cake-1.jpg" alt="Ricota cake">
-            <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
-          </div>
-          <p>Ricotta Cake with Mixed Berries</p>
-        </div>
+<body>
 
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="img-container">
-            <img class="img-thumbnail receipe-image" src="images/chocolate-almond-cookies-2.jpg" alt="Chocolate almond cookies">
-            <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
-          </div>
-          <p>Chocolate Almond Drop Cookies</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="img-container">
-            <img class="img-thumbnail receipe-image" src="images/Pistachio-Olive-Oil-Cake-2.jpg" alt="Pistachio cake">
-            <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
-          </div>
-          <p>Pistachio Olive Oil Cake</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="img-container">
-            <img class="img-thumbnail receipe-image" src="images/chocolate-yogurt-pots-3.jpg" alt="Chocolate yogurt pots">
-            <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
-          </div>
-          <p>Milk Chocolate Yogurt Pots</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="img-container">
-            <img class="img-thumbnail receipe-image" src="images/pear_tart.jpg" alt="Pear tart">
-            <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
-          </div>
-          <p>Pear Custard Tart with Cinnamon</p>
-        </div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/ftl.png" alt="FTL" height="30px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+
+  <!-- main content -->
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="img-container">
+          <img class="img-thumbnail receipe-image" src="images/kitchen_sink_cookies.jpg" alt="Cookies">
+          <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
+        </div>
+        <p>Kitchen Sink Cookies (gluten-free)</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="img-container">
+          <img class="img-thumbnail receipe-image" src="images/coconut_bread_pudding-4.jpg" alt="Coconut pudding">
+          <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
+        </div>
+        <p>Coconut Bread Pudding with Raspberries</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="img-container">
+          <img class="img-thumbnail receipe-image" src="images/zucchini-hash-skillet-.jpg" alt="Zucchini">
+          <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
+        </div>
+        <p>Zucchini Sweet Corn Hash Egg Skillet</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="img-container">
+          <img class="img-thumbnail receipe-image" src="images/Mixed-Berry-Ricotta-Cake-1.jpg" alt="Ricota cake">
+          <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
+        </div>
+        <p>Ricotta Cake with Mixed Berries</p>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="img-container">
+          <img class="img-thumbnail receipe-image" src="images/chocolate-almond-cookies-2.jpg" alt="Chocolate almond cookies">
+          <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
+        </div>
+        <p>Chocolate Almond Drop Cookies</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="img-container">
+          <img class="img-thumbnail receipe-image" src="images/Pistachio-Olive-Oil-Cake-2.jpg" alt="Pistachio cake">
+          <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
+        </div>
+        <p>Pistachio Olive Oil Cake</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="img-container">
+          <img class="img-thumbnail receipe-image" src="images/chocolate-yogurt-pots-3.jpg" alt="Chocolate yogurt pots">
+          <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
+        </div>
+        <p>Milk Chocolate Yogurt Pots</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="img-container">
+          <img class="img-thumbnail receipe-image" src="images/pear_tart.jpg" alt="Pear tart">
+          <button type="button" class="btn btn-default btn-receipe" name="button">Receipe</button>
+        </div>
+        <p>Pear Custard Tart with Cinnamon</p>
       </div>
     </div>
+  </div>
+  <!-- end of main content -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/index.js" charset="utf-8"></script>
-  </body>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
+
 </html>
