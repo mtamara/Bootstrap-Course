@@ -11,6 +11,11 @@
   width: 100%;
 }
 
+.img-detail-container {
+  height: 400px;
+  width: 100%;
+}
+
 .btn-receipe {
   position: absolute;
   top: 50%;
@@ -21,6 +26,11 @@
   background-color: #000;
   color: #fff;
   transition: opacity .35s ease;
+}
+
+a.btn-receipe:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 .img-container:hover .btn-receipe {
