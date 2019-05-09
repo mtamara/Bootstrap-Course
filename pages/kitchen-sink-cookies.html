@@ -132,7 +132,9 @@
 
         <div class="row img-gallery">
           <div class="img-container-sm">
-            <img class="img-thumbnail receipe-image" src="../images/image_detail1.jpg" alt="Cookies">
+            <a href="#" data-toggle="modal" data-target="#zoomImageModal">
+              <img class="img-thumbnail receipe-image" src="../images/image_detail1.jpg" alt="Cookies">
+            </a>
           </div>
           <div class="img-container-sm">
             <img class="img-thumbnail receipe-image" src="../images/image_detail2.jpg" alt="Cookies">
@@ -145,6 +147,26 @@
           </div>
           <div class="img-container-sm">
             <img class="img-thumbnail receipe-image" src="../images/image_detail5.jpeg" alt="Cookies">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="zoomImageModal" tabindex="-1" role="dialog" aria-labelledby="zoomImageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="zoomImageModalLabel">Zoomed Image</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="img-detail-container">
+                <img src="../images/image_detail1.jpg" alt="Cookies" class="receipe-image">
+              </div>
+            </div>
           </div>
         </div>
       </div>
