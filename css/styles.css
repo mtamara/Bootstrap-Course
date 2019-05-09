@@ -1,20 +1,14 @@
-.header {
-  position: relative;
+.carousel {
+  margin-bottom: 1rem;
 }
 
-.header img {
-  width: 100%;
-  height: 500px;
+.jumbotron {
+ margin-left: 0px;
+ margin-right: 0px;
 }
 
-.overlay {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-.overlay h1{
-  font-style: italic;
-  color: white;
+.recipes-title h3 {
+ padding-left: 15px;
 }
 
 .container {
@@ -25,7 +19,7 @@
   height: 300px;
 }
 
-.receipe-image {
+.recipe-image {
   height: 100%;
   width: 100%;
 }
@@ -41,7 +35,7 @@
   width: 100px;
 }
 
-.btn-receipe {
+.btn-recipe {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -53,12 +47,12 @@
   transition: opacity .35s ease;
 }
 
-a.btn-receipe:hover {
+a.btn-recipe:hover {
   text-decoration: none;
   color: #fff;
 }
 
-.img-container:hover .btn-receipe {
+.img-container:hover .btn-recipe {
   opacity: .7;
   z-index: 1;
 }
