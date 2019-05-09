@@ -36,6 +36,11 @@
   margin-bottom: 1rem;
 }
 
+.img-container-sm {
+  height: 100px;
+  width: 100px;
+}
+
 .btn-receipe {
   position: absolute;
   top: 50%;
@@ -56,4 +61,8 @@ a.btn-receipe:hover {
 .img-container:hover .btn-receipe {
   opacity: .7;
   z-index: 1;
+}
+
+.img-gallery {
+  margin: 10px 5px;
 }
